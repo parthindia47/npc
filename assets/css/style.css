@@ -11,13 +11,21 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  padding-top: 65px;
-  padding-left: 0px;
+  margin-top: 0px;
+  overflow:auto;
 }
 
 a {
   color: #2487ce;
 }
+
+.extrme_left {
+  float: right;
+  width:100%
+  padding-left:-150px; /* this needs to be bigger than footer height*/
+  margin-left:-150px; /* this needs to be bigger than footer height*/
+}
+
 
 /* Style buttons */
 .btn {
