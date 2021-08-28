@@ -19,11 +19,8 @@ a {
   color: #2487ce;
 }
 
-.extrme_left {
-  float: right;
-  width:100%
-  padding-left:-150px; /* this needs to be bigger than footer height*/
-  margin-left:-150px; /* this needs to be bigger than footer height*/
+#main {
+  padding-bottom:150px; /* this needs to be bigger than footer height*/
 }
 
 
@@ -431,7 +428,6 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
-  position: relative;
 }
 
 #hero:before {
@@ -442,10 +438,6 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   right: 0;
-}
-
-#hero .container {
-  padding-top: 80px;
 }
 
 #hero h1 {
