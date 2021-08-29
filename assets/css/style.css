@@ -2037,3 +2037,33 @@ section {
   background: #fefefe;
   border-color: #125688;
 }
+
+.rounded-social-buttons .social-button.telegram {
+  background: #0088cc;
+}
+
+.rounded-social-buttons .social-button.telegram:hover, .rounded-social-buttons .social-button.telegram:focus {
+  color: #0088cc;
+  background: #fefefe;
+  border-color: #0088cc;
+}
+
+.rounded-social-buttons .social-button.reddit {
+  background: #FF4301;
+}
+
+.rounded-social-buttons .social-button.reddit:hover, .rounded-social-buttons .social-button.reddit:focus {
+  color: #FF4301;
+  background: #fefefe;
+  border-color: #FF4301;
+}
+
+.rounded-social-buttons .social-button.discord {
+  background: #738ADB;
+}
+
+.rounded-social-buttons .social-button.discord:hover, .rounded-social-buttons .social-button.discord:focus {
+  color: #738ADB;
+  background: #fefefe;
+  border-color: #738ADB;
+}
