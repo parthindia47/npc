@@ -430,6 +430,14 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
+/* next size - tablet */
+@media (min-width: 768px) {
+  .hero {
+    background-image: url("../img/mobile-bg.jpg") top center;
+  }
+}
+
+
 #hero:before {
   content: "";
   background: rgba(255, 255, 255, 0.2);
