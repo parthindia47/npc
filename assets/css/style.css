@@ -433,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* next size - tablet */
-@media only screen and (max-width: 480px) {
+@media (max-width: 768px) {
   #hero {
     background: url("../img/mobile-bg.jpg") top center;
   }
