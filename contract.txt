@@ -2,6 +2,12 @@
 
 pragma solidity ^0.8.0;
 
+/*
+website : https://fibonaccinetwork.tech/
+101101175000000000000000000000
+
+*/
+
 
 interface IERC20 {
     /**
@@ -439,7 +445,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 
 contract fibonacci_network is ERC20 
 {
-    constructor( uint256 initialSupply ) ERC20 ( "fibonacci network", "FBN")
+    constructor( uint256 initialSupply ) ERC20 ( "Fibonacci network", "FIBO")
     {
         _mint(msg.sender , initialSupply);
     }
